@@ -24,4 +24,4 @@ Please use [this free fake API](https://jsonplaceholder.typicode.com) to fetch a
 * POST:	/posts 
 * DELETE:	/posts/{id}
 
-Company&Co employees credentials are listed in `src/app/shared/users`. Please use it to validate entered credentials (username and password)
+There is `AuthMockService` in the shared folder. Please use it to simulate the authentication flow.
